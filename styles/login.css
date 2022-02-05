@@ -1,0 +1,131 @@
+@media screen and (max-width: 765px){
+    body{
+        display: flex;
+        margin: 0;
+        user-select: none;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        background: linear-gradient(to right, purple 40%, blue);
+    }
+
+    #h1{
+        padding-top: 10px;
+    }
+
+    #cont-log{
+        width: 380px;
+        height: 380px;
+        background: white;  
+        text-align: center;
+        border-radius: 20px;
+        margin-top: 30%;
+    }
+
+    #email{
+        width: 200px;
+        height: 30px;
+        margin-bottom: 30px;
+        border-radius: 3px;
+        border: none;
+    }
+
+    #pass{
+        width: 200px;
+        height: 30px;
+        margin-bottom: 30px;
+        border-radius: 3px;
+        border: none;
+    }
+
+    #div-span{
+        padding-top: 25%;
+    }
+
+    #enviar{
+        width: 150px;
+        height: 30px;
+        color: black;
+        background: greenyellow;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    #enviar:hover{
+        color: white;
+        cursor: pointer;
+        background-color: green;
+    }
+
+    #linkaviso:visited{
+        color: blue;
+    }
+
+    ::placeholder{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 766px){
+    body{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        background: linear-gradient(to right, purple 40%, blue)
+    }
+
+    #h1{
+        padding-top: 10px;
+    }
+
+    #cont-log{
+        width: 380px;
+        height: 380px;
+        text-align: center;
+        background-color: white;
+        border-radius: 10px;
+        margin-top: 30%;
+    }
+
+    #email{
+        width: 200px;
+        height: 25px;
+        margin-bottom: 30px;
+        border-radius: 3px;
+        border: none;   
+    }
+
+    #pass{
+        border: none;
+        margin-bottom: 30px;
+    }
+
+    #div-span{
+        padding-top: 25%;
+        font-size: 17px;
+    }
+
+    #enviar{
+        width: 150px;
+        height: 30px;
+        color: black;
+        background: rgb(156, 228, 49);
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    #enviar:hover{
+        color: white;
+        cursor: pointer;
+        background-color: green;
+    }
+
+    #linkaviso:visited{
+        color: blue;
+    }
+
+    ::placeholder{
+        text-align: center;
+    }
+}
