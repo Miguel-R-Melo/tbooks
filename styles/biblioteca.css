@@ -1,10 +1,20 @@
+:root{
+    --cor01: #09EBAC;
+    --cor02: #246B57;
+    --cor03: #07B886;
+    --cor04: #046B4E;
+    --cor05: #51EEC1;
+}
+
 @media screen and (max-width: 765px){
 
     body{
         margin: 0;
         background-color: rgb(12, 136, 158);
         font-family: Arial, Helvetica, sans-serif;
+        background: linear-gradient(to right, var(--cor01), var(--cor03));
     }
+        
 
     header{
         margin-bottom: 5px;
@@ -71,6 +81,7 @@
         margin: 0;
         background-color: rgb(12, 136, 158);
         font-family: Arial, Helvetica, sans-serif;
+        background: linear-gradient(to right, var(--cor01), var(--cor03));
     }
 
     ::-webkit-scrollbar{

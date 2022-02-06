@@ -1,10 +1,18 @@
+:root{
+    --cor01: #09EBAC;
+    --cor02: #246B57;
+    --cor03: #07B886;
+    --cor04: #046B4E;
+    --cor05: #51EEC1;
+}
+
 @media  screen and (max-width: 765px) {
     body{
         display: flex;
         align-content: center;
         justify-content: center;
         font-family: Arial, Helvetica, sans-serif;
-        background: linear-gradient(to right, purple 40%, blue)
+        background: linear-gradient(to right, var(--cor01), var(--cor03));
     }
 
     #h1{
@@ -71,7 +79,7 @@
         align-items: center;
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
-        background: linear-gradient(to right, purple 40%, blue);
+        background: linear-gradient(to right, var(--cor01), var(--cor03));
     }
 
 
@@ -131,3 +139,5 @@
         text-align: center;
     }
 }
+
+
