@@ -1,17 +1,25 @@
+
+@font-face{
+    font-family: "cafe";
+    src: url(../fontes/cafe/Louis\ George\ Cafe.ttf) format("truetype");
+}
+
 :root{
     --cor01: #09EBAC;
     --cor02: #246B57;
     --cor03: #07B886;
     --cor04: #046B4E;
     --cor05: #51EEC1;
+    --fontepad: "cafe", cursive;
 }
+
 
 @media screen and (max-width: 765px){
 
     body{
         margin: 0;
         background-color: rgb(12, 136, 158);
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: var(--fontepad), cursive;
         background: linear-gradient(to right, var(--cor01), var(--cor03));
     }
         
@@ -80,7 +88,7 @@
     body{
         margin: 0;
         background-color: rgb(12, 136, 158);
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: var(--fontepad), cursive;
         background: linear-gradient(to right, var(--cor01), var(--cor03));
     }
 

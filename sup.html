@@ -15,7 +15,113 @@
 
     <main>
 
-        <section id='container'>
+		<div id="container">
+			<form action="form.py">
+				<label for="email">Digite seu email:</label>
+				<input type="email" id="email" name="email" placeholder="nomeuser@gmail.com" required>
+				<br>
+				<label for="texto"></label>
+				<input type="text" name="texto" id="texto" required>
+				<br>
+				<input type="submit" value="Enviar">
+			</form>
+		</div>
+
+    	<!--<form action="idk.py"><!--action informa o destino do formulário
+    		<label for="first_name">First name:</label>
+    		<input type="text" id="first_name" name="first_name" placeholder="Type your first name"> <!--Tipos de input no insta / name é para o back-end
+    		<br>
+    		<label for="last_name">Last name:</label>
+    		<input type="text" id="last_name" name="last_name" placeholder="Type your last name">
+
+    		<br>
+
+			
+    		<label for="homem">Homem</label>
+    		<input type="radio" value="homem" id="homem" name="opc">
+    		<label for="mulher">Mulher</label>
+    		<input type="radio" value="mulher" id="mulher" name="opc">
+    		<label for="carro">Carro</label>
+    		<input type="radio" value="carro" id="carro" name="opc">
+    		<label for="aviao">Avião</label>
+    		<input type="radio" value="aviao" id="aviao" name="opc"> 
+    		<!--name="opc" para selecionar apenas uma opção
+    		<br>
+
+    		<label for="pagamento">Pagamento</label>
+    		<select id="pagamento">
+    			<option value="visa">
+    				Visa
+    			</option>
+    			<option value="mastercard">
+    				Mastercard
+    			</option>
+    			<option value="nubank">
+    				Nubank
+    			</option>
+    			<option value="tesla">
+    				Tesla
+    			</option>
+    		</select>
+
+    		<br>
+
+    			<label for="email">Email</label>
+    			<input type="email" id="email" name="email" placeholder="Email" required>
+    			<br>
+
+    			<label for="data">Data de aniversário:</label>
+    			<input type="date" id="data" name="data" min="2007-01-02" max="#">
+    			<br>
+
+    			<label for="numero">Quantidade:</label>
+    			<input type="number" id="numero" name="numero" min="1" max="100" value="1"> <!--value seria o valor padrão
+    			<br>
+
+    			<label for="telefone">Número de telefone:</label>
+    			<input type="tel" id="telefone" name="telefone">
+    			<br>
+
+    			<label for="senha">Senha:</label>
+    			<input type="password" id="senha" name="senha" minlength="5" maxlength="12"><!--maxlenght é o máximo de caracteres
+    			<span>(min.5 caracteres max. 12 caracteres)</span>
+    			<br>
+
+    			<label for="avaliacao">Avalie-nos</label>
+    			1<input type="range" id="avaliacao" name="avaliacao" step="25" value="100">5
+        		<br>
+
+        		<label for="inscrever">Increva-se</label>
+        		<input type="checkbox" id="inscrever" name="inscrever">
+        		<br>
+
+        		<label for="arquivo">Upload</label>
+        		<input type="file" id="arquivo" name="arquivo" accept=".html"> <!--accept limita os tipos de arquivo
+
+    		<input type="reset">
+
+    		<br>
+
+    		<input type="submit"> <!--Enviar para o action="" da tag form
+    	</form>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--<section id='container'>
             <div id='scontum'>
                 <h2 class='h2'>Formulário de reportação</h2>
                 <a id='linkform' href="https://docs.google.com/forms/d/e/1FAIpQLScjjROy-od06LxjuNw-Ppg_2BPrkxQOmloeyBgy6Rc9nTq2oQ/viewform?usp=sf_link" target='_blank'>
@@ -27,12 +133,19 @@
 
             <div id='scontdo'>
                 <h2 class='h2'>Meios de contato</h2>
-				<ul> <!--Colocar os links-->
+				<ul> Colocar os links
 					<a id='emailtbooks' href="mailto:tinobooks@gmail.com">
 						<li>tinobooks@gmail.com</li>
 					</a>
 				</ul>
-            </div>
+            </div>-->
+
+
+
+
+
+
+
 
 			<aside id='barra'>
 
@@ -79,6 +192,7 @@
 			</aside>
         </section>
     </main>
+
 
 	<script src='scripts/geral.js'></script>
 </body>
