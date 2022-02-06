@@ -56,8 +56,8 @@
 
     #container{
         margin: auto;
-        height: 435px;
-        width: 360px;
+        height: 25em;
+        width: 20em;
         border-radius: 15px;
         color: black;
         background-color: white;
