@@ -1,8 +1,17 @@
+:root{
+    --cor01: #09EBAC;
+    --cor02: #246B57;
+    --cor03: #07B886;
+    --cor04: #046B4E;
+    --cor05: #51EEC1;
+}
+
 @media screen and (max-width: 765px){
     body{
         margin: 0;
         background: gray;
         font-family: Arial, Helvetica, sans-serif;
+        background: url(https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
     }
 
     header{
@@ -85,11 +94,11 @@
     body{
         margin: 0;
         font-family: Arial, Helvetica, sans-serif;
-        background: gray;
+        background: url(https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
     }
 
     header{
-        height: 50px;
+        height: 2.7em;
         background-color: black;
         margin-bottom: 20px;
     }
