@@ -17,13 +17,19 @@
 
 		<div id="container">
 			<form action="form.py">
-				<label for="email">Digite seu email:</label>
+				<div id="div_email">
+					<label for="email">Digite seu email:</label>
+				</div>
 				<input type="email" id="email" name="email" placeholder="nomeuser@gmail.com" required>
 				<br>
-				<label for="texto"></label>
+				<div id="div_senha">
+					<label for="texto">Digite sua avaliação/reclamação:</label><br>
+				</div>
 				<input type="text" name="texto" id="texto" required>
 				<br>
-				<input type="submit" value="Enviar">
+				<div id="but">
+					<input type="submit" value="Enviar" id="enviar">
+				</div>
 			</form>
 		</div>
 
