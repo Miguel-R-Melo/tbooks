@@ -65,6 +65,10 @@
         padding: 0.3em;
     }
 
+    .imgcont:hover{
+        background: rgba(255, 255, 255, 0.089);
+    }
+
     #cont{
         display: flex;
         width: 20em;
@@ -174,14 +178,21 @@
 
     .ibl{
         display: flex;
-        width: 40px;
-        height: 40px;
-        margin: 50px auto 0px auto;
+        width: 4em;
+        height: 4em;
+        margin: 3.12em auto 0em auto;
         justify-content: center;
     }
 
     .imgcont{
-        width: 45px;
-        height: 45px;
+        width: 3em;
+        height: 3em;
+        border-radius: 0.6em;
+        padding: 0.1em;
     }
+
+    .imgcont:hover{
+        background-color: rgba(255, 255, 255, 0.089);
+    }
+
 } /*Normal*/
