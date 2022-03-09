@@ -87,6 +87,11 @@
         background-color: green;
     }
 
+    #enviar:hover{
+        cursor: pointer;
+        background-color: rgb(21, 233, 21);
+    }
+
     #barra{
         display: flex;
         position: fixed;
@@ -95,6 +100,7 @@
         height: 65px;
         background-color: black;
         align-items: center;
+        justify-content: center;
     }
 
     
@@ -160,6 +166,8 @@
 
 }/*mobile*/
 
+
+
 @media screen and (min-width: 766px){
 
     body{
@@ -179,10 +187,10 @@
 
     #container{
         position: relative;
-        width: 22em;
-        height: 24em;
+        width: 24em;
+        height: 26em;
         margin: 3em auto;
-        border-radius: 2em;
+        border-radius: 1em;
         background-color: var(--cor05);
     }
 
@@ -207,6 +215,7 @@
         display: flex;
         margin: 1em auto;
         height: 10em;
+        width: 20em;
     }
 
     #but{
@@ -225,6 +234,11 @@
         border-radius: 0.7em;
         color: white;
         background-color: green;
+    }
+
+    #enviar:hover{
+        cursor: pointer;
+        background-color: rgb(21, 233, 21);
     }
     /*
 

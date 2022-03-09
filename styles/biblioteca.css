@@ -66,17 +66,31 @@
         height: 40px;
     }
 
+    #cont_style{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
     #contliv{
         width: 100%;
         height: 100%;
         display: inline-block;
     }
 
+
     .capalivro{
-        width: 140px;
-        height: 150px;
+        width: 8.8em;
+        height: 8.8em;
         border-radius: 20px;
-        margin: 8px 0px 10px 0px;
+        margin: 0em;
+    }
+
+    .capalivro:hover{
+        width: 7em;
+        transform: scale(1.5);
+        transition: all 1s ease-in-out;
     }
 
     .linklivro{

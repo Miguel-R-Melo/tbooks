@@ -11,42 +11,44 @@
     --cor05: #51EEC1;
     --fontepad: "cafe", cursive;
 }
+
 @media screen and (max-width: 765px){
     body{
-        display: flex;
+        display: grid;
+        height: 100vh;
+        place-items: center;
         margin: 0;
         user-select: none;
-        justify-content: center;
         font-family: var(--fontepad), cursive;
         background: linear-gradient(to right, var(--cor01), var(--cor03));
     }
 
     #h1{
-        padding-top: 10px;
+        padding-top: 0.4em;
     }
 
     #cont-log{
-        width: 380px;
-        height: 380px;
+        width: 23.5em;
+        height: 24em;
         background: white;  
         text-align: center;
-        border-radius: 20px;
-        margin-top: 30%;
+        border-radius: 1.1em;
     }
 
     #email{
-        width: 200px;
-        height: 30px;
-        margin-bottom: 30px;
-        border-radius: 3px;
+        width: 15em;
+        height: 2em;
+        margin-bottom: 2em;
+        border-radius: 0.2em;
         border: none;
     }
 
+
     #pass{
-        width: 200px;
-        height: 30px;
-        margin-bottom: 30px;
-        border-radius: 3px;
+        width: 15em;
+        height: 2em;
+        margin-bottom: 2em;
+        border-radius: 0.2em;
         border: none;
     }
 
@@ -55,17 +57,19 @@
     }
 
     #enviar{
-        width: 150px;
-        height: 30px;
+        width: 10em;
+        height: 2.4em;
         color: black;
         background: greenyellow;
-        border-radius: 5px;
-        margin-bottom: 10px;
+        border-radius: 0.5em;
+        margin-bottom: 0.7em;
+        border: none;
     }
 
     #enviar:hover{
         color: white;
         cursor: pointer;
+        border: none;
         background-color: green;
     }
 
@@ -81,51 +85,55 @@
 @media screen and (min-width: 766px){
     body{
         margin: 0;
-        display: flex;
-        justify-content: center;
+        display: grid;
+        height: 100vh;
+        place-items: center;
         align-items: center;
         font-family: var(--fontepad), cursive;
         background: linear-gradient(to right, var(--cor01), var(--cor03));
     }
 
     #h1{
-        padding-top: 10px;
+        padding-top: 0.7em;
     }
 
     #cont-log{
-        width: 380px;
-        height: 380px;
+        width: 24em;
+        height: 26em;
         text-align: center;
         background-color: white;
-        border-radius: 10px;
-        margin-top: 30%;
+        border-radius: 1.1em;
     }
 
     #email{
-        width: 200px;
-        height: 25px;
-        margin-bottom: 30px;
-        border-radius: 3px;
+        width: 15em;
+        height: 2em;
+        margin-bottom: 2em;
+        border-radius: 0.2em;
         border: none;   
     }
 
     #pass{
         border: none;
-        margin-bottom: 30px;
+        width: 15em;
+        height: 2em;
+        margin-bottom: 2em;
+        border-radius: 0.2em;
     }
 
     #div-span{
-        padding-top: 25%;
-        font-size: 17px;
+        padding-top: 33%;
+        font-size: 1em;
     }
 
     #enviar{
-        width: 150px;
-        height: 30px;
+        width: 10em;
+        height: 2.4em;
         color: black;
         background: rgb(156, 228, 49);
-        border-radius: 5px;
-        margin-bottom: 10px;
+        border-radius: 0.5em;
+        margin-bottom: 0.7em;
+        border: none;
     }
 
     #enviar:hover{

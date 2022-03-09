@@ -12,18 +12,30 @@
     --fontepad: "cafe", cursive;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
 
-@media screen and (max-width: 765px){
+@media screen and (max-width: 690px){
     body{
         margin: 0;
-        background: gray;
+        display: grid;
+        height: 100vh;
+        place-items: center; 
         font-family: var(--fontepad), cursive;
         background: url(https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
     }
 
     header{
+        display: grid;
         color: white;
-        margin-bottom: 20px;
+        position: fixed;
+        top: 0; 
+        width: 100%;
+        height: 3em;
+        place-items: center;
+        text-align: center;
         background-color: black;
     }
 
@@ -40,152 +52,162 @@
         display: flex;
         justify-content: center;
         position: fixed;
-        bottom: 0px;
-        left: 0px;
+        bottom: 0em;
+        left: 0em;
         width: 100%;
-        height: 55px;
+        height: 3.6em;
         background-color: black;
     }
 
     .ibl{
-        height: 50px;
-        width: 50px;
-        margin-left: 30px;
-        padding-top: 6px;
+        height: 5em;
+        width: 3.3em;
+        margin-left: 1.5em;
+        padding-top: 0.2em;
+        border-radius: 1em;
     }
 
     #container{
         margin: auto;
         height: 25em;
         width: 20em;
-        border-radius: 15px;
+        border-radius: 1em;
         color: black;
         background-color: white;
     }
 
     #divimg{
         display: flex;
-        margin: 0px auto 100px auto;
-        width: 100px;
-        height: 100px;
-        padding-top: 18px;
+        margin: 0em auto 4em auto;
+        width: 10em;
+        height: 10em;
+        padding-top: 1.2em;
         justify-content: center;
     }
 
     #imgcont{
-        width: 190px;
-        height: 190px;
-        border-radius: 15px;
+        width: 12em;
+        height: 11em;
+        border-radius: 1em;
     }
 
     #desc{
         margin: 0 auto;
-        width: 280px;
-        height: 10px;
+        width: 14em;
+        height: 1em;
         text-align: justify;
     }
 
     .imgcont{
-        width: 40px;
-        height: 40px;
+        width: 2.5em;
+        height:  2.5em;
+        border-radius: 0.6em;
+        padding: 0.3em;
+    }
+
+    .imgcont:hover{
+        transition: all 0.1s ease-in-out;
+        background-color: rgba(255, 255, 255, 0.089);
     }
 
     #txt{
-        text-indent: 25px;
+        text-indent: 1.3em;
     }
 } /*Mobile*/
 
 
-@media screen and (min-width: 766px){
-    
+@media screen and (min-width: 691px){
+
     body{
-        margin: 0;
+        display: grid;
+        height: 100vh;
+        place-items: center;
         font-family: var(--fontepad), cursive;
         background: url(https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
     }
 
     header{
-        height: 2.7em;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 3em;
         background-color: black;
-        margin-bottom: 20px;
-    }
-
-    main{
-        margin: 0;
-    }
-
-    ::-webkit-scrollbar{
-        width: 0;
     }
 
     #h1{
         margin: 0;
-        padding-top: 5px;
+        padding-top: 0.2em;
         color: white;
         text-align: center;
     }
 
     #barra{
-        display: inline-block;
+        display: grid;
         position: fixed;
         top: 0;
         right: 0;
-        width: 60px;
+        width: 3.9em;
         height: 100%;
         background-color: black;
-        justify-content: center;
+        place-items: center;
     }
 
     .ibl{
-        width: 40px;
-        height: 40px;
-        margin: 50px auto 0px auto;
+        width: 2em;
+        height: 3em;
     }
 
     .imgcont{
-        width: 45px;
-        height: 45px;
+        width: 2.7em;
+        height: 2.7em;
+        border-radius: 0.5em;
+        padding: 0.15em;
+    }
+
+    .imgcont:hover{
+        transition: all 0.1s ease-in-out;
+        background-color: rgba(177, 175, 152, 0.267);
     }
 
     #container{
-        margin: 0 auto;
-        width: 500px;
-        height: 500px;
-        background-color: white;
-        border-radius: 10px;
+        width: 31em;
+        height: 31em;
+        background-color: rgb(255, 255, 255);
+        border-radius: 0.9em;
     }
 
     #divimg{
         display: flex;
-        width: 310px;
-        height: 250px;
+        width: 10em;
+        height: 10em;
         justify-content: center;
-        margin: 0px auto 5px auto;
-        padding-top: 10px;
+        margin: 0em auto 10em auto;
+        padding-top: 1em;
     }
 
     #desc{
         display: flex;
         margin: 0 auto;
-        width: 390px;
-        height: 140px;
+        width: 20em;
+        height: 6em;
         text-align: justify;
         justify-content: center;
-        font-size: 20px;
+        font-size: 1.3em;    
     }
 
     #desc ~ p {
         width: 100%;
         height: 100%;
     }
+
     #imgcont{
-        width: 210px;
-        height: 210px;
-        border-radius: 12px;
-        margin-top: 10px;
+        width: 20em;
+        height: 15em;
+        border-radius: 1em;
+        margin-top: 1em;
     }
 
     #txt{
-        text-indent: 25px;
+        text-indent: 1.6em;
     }
 } /*Normal*/
