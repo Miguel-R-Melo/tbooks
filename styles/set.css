@@ -10,6 +10,7 @@
     --cor04: #046B4E;
     --cor05: #51EEC1;
     --fontepad: "cafe", cursive;
+    --fundo: #999999;
 }
 
 *{
@@ -25,7 +26,7 @@
         place-items: center;
         margin: 0;
         font-family: var(--fontepad), cursive;
-        background: linear-gradient(to right, var(--cor01), var(--cor03));
+        background: var(--fundo);
     }
 
     header{
@@ -115,7 +116,7 @@
         height: 100vh;
         place-items: center;
         font-family: var(--fontepad), cursive;
-        background: linear-gradient(to right, var(--cor01), var(--cor03));
+        background: var(--fundo);
     }
 
     header{
