@@ -150,6 +150,7 @@
         height: 100%;
         background-color: black;
         place-items: center;
+        justify-content: center;
     }
 
     .ibl{
@@ -161,7 +162,6 @@
         width: 2.7em;
         height: 2.7em;
         border-radius: 0.5em;
-        padding: 0.15em;
     }
 
     .imgcont:hover{

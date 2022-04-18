@@ -21,11 +21,16 @@
         background-color: rgb(12, 136, 158);
         font-family: var(--fontepad), cursive;
         background: linear-gradient(to right, var(--cor01), var(--cor03));
+        scrollbar-width: 120px;
+    }
+
+    body::-webkit-scrollbar{
+        width: 50px;
     }
         
 
     header{
-        margin-bottom: 5px;
+        margin-bottom: 1em;
         color: white;
         background-color: black;
     }
@@ -88,9 +93,7 @@
     }
 
     .capalivro:hover{
-        width: 7em;
-        transform: scale(1.5);
-        transition: all 1s ease-in-out;
+        scale: 1.1;
     }
 
     .linklivro{
@@ -133,6 +136,11 @@
         width: 230px;
         border-radius: 10px;
         margin: 10px 5px;
+    }
+
+    .capalivro:hover{
+        scale: 1.1;
+        margin: 0.5em;  
     }
 
     #contliv{

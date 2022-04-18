@@ -114,7 +114,6 @@
         display: grid;
         height: 100vh;
         place-items: center;
-        margin: 0;
         font-family: var(--fontepad), cursive;
         background: linear-gradient(to right, var(--cor01), var(--cor03));
     }
@@ -129,7 +128,6 @@
     }
 
     #h1{
-        margin: 0;
         text-align: center;
     }
 
@@ -185,8 +183,8 @@
     }
 
     .imgcont{
-        width: 3em;
-        height: 3em;
+        width: 2.7em;
+        height: 2.7em;
         border-radius: 0.6em;
         padding: 0.1em;
     }
@@ -196,3 +194,4 @@
     }
 
 } /*Normal*/
+
