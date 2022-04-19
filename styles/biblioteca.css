@@ -13,7 +13,6 @@
     --fontepad: "cafe", cursive;
 }
 
-
 @media screen and (max-width: 765px){
 
     body{
@@ -69,6 +68,12 @@
     .imgcont{
         width: 40px;
         height: 40px;
+        border-radius: 0.6em;
+    }
+
+    .imgcont:hover{
+        transition: all 0.1s ease-in-out;
+        background-color: rgba(255, 255, 255, 0.089);
     }
 
     #cont_style{
@@ -151,6 +156,7 @@
 
     #barra{
         position: fixed;
+        display: grid;
         top: 0;
         right: 0;
         width: 60px;
@@ -170,5 +176,11 @@
     .imgcont{
         width: 45px;
         height: 45px;
+        border-radius: 0.6em;
+    }
+
+    .imgcont:hover{
+        transition: all 0.1s ease-in-out;
+        background-color: rgba(255, 255, 255, 0.089);
     }
 }/*Normal*/
