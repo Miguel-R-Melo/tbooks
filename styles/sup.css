@@ -16,7 +16,7 @@
 
     body{
         margin: 0;
-        background: linear-gradient(to right, var(--cor01), var(--cor03));
+        background: #3E49DE;
         font-family: var(--fontepad), cursive;
     }
 
@@ -36,7 +36,7 @@
         width: 22em;
         height: 22em;
         margin: auto;
-        background-color: var(--cor05);
+        background-color: #616BFF;
         border-radius: 1em;
     }
 
@@ -49,11 +49,17 @@
     #email{
         display: block;
         margin: 1em auto 0em auto;
-        width: 15em;
+        width: 13em;
+        height: 1.3em;
     }
 
     ::placeholder{
         text-align: center;
+    }
+
+    input:focus{
+        transition: 1s border-color ease-in-out;
+        border-color: cyan;
     }
 
     #div_texto{
@@ -112,8 +118,8 @@
     }
 
     .imgcont{
-        width: 48px;
-        height: 48px;
+        width: 3em;
+        height: 3em;
     }
 
     /*aside{
@@ -172,13 +178,13 @@
 
     body{
         margin: 0;
-        background: linear-gradient(to right, var(--cor01), var(--cor03));
+        background: #3E49DE;
         font-family: var(--fontepad), cursive;
     }
 
     header{
         display: flex;
-        height: 40px;
+        height: 3em;
         align-items: center;
         justify-content: center;
         color: white;
@@ -189,9 +195,9 @@
         position: relative;
         width: 24em;
         height: 26em;
-        margin: 3em auto;
+        margin: 5% auto;
         border-radius: 1em;
-        background-color: var(--cor05);
+        background-color: #616BFF;
     }
 
 
@@ -204,6 +210,16 @@
     #email{
         display: block;
         margin: 1em auto;
+        width: 15em;
+    }
+
+    ::placeholder{
+        text-align: center;
+    }
+
+    input:focus{
+        transition: 1s border-color ease-in-out;
+        border-color: cyan;
     }
 
     #div_texto{
@@ -214,12 +230,8 @@
     #texto{
         display: flex;
         margin: 1em auto;
-        height: 10em;
+        height: 15em;
         width: 20em;
-    }
-
-    #label_txt::{
-
     }
 
     #but{
@@ -302,6 +314,9 @@
 
     #barra{
         position: fixed;
+        display: grid;
+        align-items: center;
+        justify-content: center;
         right: 0;
         top: 0;
         width: 60px;
